@@ -19,6 +19,7 @@ On Jetson Tx2, we need to create the followoing primary containers :
 - Docker container for messaging forwarder
 
 
+Also note that we will be using `test_topic` as the name of message forwarder and subscriber topics on both Jetson and IBM-cloud. Please check the associated Python files for details.
 
 ##### Prepare Mosquitto Broker code on Jetson
 - First step is to create a docker network and MQTT enabled broker that acts as intermediary between the message forwarder and remote host:
@@ -64,7 +65,7 @@ apk update && apk add mosquitto
     RUN pip3 install paho-mqtt
     WORKDIR /home/midscode
 ```
-- <B> Python script </B>  `img_capture_forwarder.py` that activates USB connected webcam, takes photos and then forwards them to the IBM cloud VSI on IP adddress
+- <B> Python script </B>  `img_capture_forwarder.py` that activates USB connected webcam, takes photos and then forwards them to the IBM cloud VSI on IP adddress (check the script for `test_topic` as the name of message forwarder and subscriber topics on both Jetson and IBM-cloud)
 - `haarcascade_frontalface_default.xml` used to recognize faces
 - <B> Run docker forwarder invoking commands and copy Python and XML files inside the container </B>. Following commands build Docker image, activate local USB camera on the Jetson, run the container in Bash shell mode and then copies the python and XML scripts inside the container (using the following commands):
 ```
@@ -78,8 +79,9 @@ apk update && apk add mosquitto
 
 
 
+
 On IBM Cloud
----------------
+------------------------
 On our IBM cloud VSI, we need to create the followoing primary containers.:
 - Docker container for messaging broker
 - Docker container for messaging subscriber (should be on same network as above broker container, in this case `hw03`)
