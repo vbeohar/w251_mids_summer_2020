@@ -1,0 +1,63 @@
+b59438cb553f
+
+
+sudo docker
+
+
+sudo docker run --name usb_capture2 --network hw07 -it --device=/dev/video1:/dev/video1 -e DISPLAY=$DISPLAY --privileged --rm --env QT_X11_NO_MITSHM=1 -v /tmp:/tmp 0fa7b4b69526 /bin/bash
+
+
+sudo docker network create --driver bridge hw07
+
+sudo docker run --name mosquitto --network hw07 -p 1883:1883 -ti alpine sh
+
+
+apk update && apk add mosquitto
+
+/usr/sbin/mosquitto
+# Press Control-P Control-Q to disconnect from the container
+
+
+sudo docker run --name img_forwarder --network hw03 -it --device=/dev/video1:/dev/video1 -e DISPLAY=$DISPLAY --privileged --rm --env QT_X11_NO_MITSHM=1 <image_name> /bin/bash
+
+
+  sudo docker exec -i usb_capture1 sh -c 'cat > haarcascade_frontalface_default.xml' < /home/vebs/Documents/w251/wk07/haarcascade_frontalface_default.xml
+
+  sudo docker exec -i usb_capture1 sh -c 'cat > img_capture_forwarder.py' < /home/vebs/Documents/w251/wk03/simple_cam.py
+
+
+sudo docker exec -it usb_capture1 /bin/bash
+
+
+
+
+sudo s3fs vebsbuck /mnt/mybucket -o passwd_file=$HOME/.cos_creds -o sigv2 -o use_path_request_style -o url=https://s3.direct.us-east.cloud-object-storage.appdomain.cloud
+
+https://s3.us-east.cloud-object-storage.appdomain.cloud/vebsbuck/0.262784748079786.png
+
+
+{
+  "apikey": "qoLuzmLeCzOINsIjGZzNa-f3cUJxeKbCmUvXVfyQztgF",
+  "cos_hmac_keys": {
+    "access_key_id": "31e70872aac54631baaab5248fd5ef93",
+    "secret_access_key": "b259137b4802694695bb49e9c0652b916ea8ea879e6af637"
+  },
+  "endpoints": "https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints",
+  "iam_apikey_description": "Auto-generated for key 31e70872-aac5-4631-baaa-b5248fd5ef93",
+  "iam_apikey_name": "Writer",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/b98ea500e94b455ab7eebf45dc1a4731::serviceid:ServiceId-ef574c3d-cf65-48f5-aad2-568905b80952",
+  "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/b98ea500e94b455ab7eebf45dc1a4731:f8915753-9d72-4bdb-b123-e9b17fce25b5::"
+}
+
+
+
+Substitue your values for <Access_Key_ID> and <Secret_Access_Key> in the below command.
+echo "31e70872aac54631baaab5248fd5ef93:b259137b4802694695bb49e9c0652b916ea8ea879e6af637" > $HOME/.cos_creds
+chmod 600 $HOME/.cos_creds
+
+
+
+docker run --name python_img_receiver --network hw07 -it --privileged -v /mnt/mybucket:/mnt/mybucket fd14d7d9bbc6 sh
+
+ sudo docker exec -i python_img_receiver sh -c 'cat > msg_sub_save.py' < /root/wk03/msg_sub_save.py
