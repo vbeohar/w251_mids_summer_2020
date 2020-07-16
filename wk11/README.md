@@ -150,12 +150,13 @@ Videos
 
 Stacktrace of results
 -----------------------
-  <u>5th round training</u>
-  <p float="left">
-    <img src="submission_files/6th_round_results.png" width="500" />
-  </p>
 
-  <u>6th round training</u>
-  <p float="left">
-    <img src="submission_files/8th_final_round_final_scores.png" width="500" />
-  </p>
+<u>5th round training</u>
+<p float="left">
+  <img src="submission_files/6th_round_results.png" width="500" />
+</p>
+
+<u>6th round training</u>
+<p float="left">
+  <img src="submission_files/8th_final_round_final_scores.png" width="500" />
+</p>
