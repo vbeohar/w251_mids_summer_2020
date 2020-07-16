@@ -78,32 +78,32 @@
 
   <u>Round 6 train & test scores</u>
 ```
-468 	: Episode || Reward:  236.02900558532795 	|| Average Reward:  193.3000869660911 	 epsilon:  0.09528507271768329
-469 	: Episode || Reward:  194.82086903695605 	|| Average Reward:  193.86350116293934 	 epsilon:  0.09480864735409487
-470 	: Episode || Reward:  194.9990044109442 	|| Average Reward:  193.36169501613378 	 epsilon:  0.0943346041173244
-471 	: Episode || Reward:  242.6709557261555 	|| Average Reward:  193.6634085954237 	 epsilon:  0.09386293109673778
-472 	: Episode || Reward:  281.0211610142939 	|| Average Reward:  194.35460686861595 	 epsilon:  0.09339361644125409
-473 	: Episode || Reward:  219.83592551694156 	|| Average Reward:  196.70679655392493 	 epsilon:  0.09292664835904782
-474 	: Episode || Reward:  215.21126488262763 	|| Average Reward:  196.9662457835784 	 epsilon:  0.09246201511725258
-DQN Training Complete...
-Starting Testing of the trained model...
-0 	: Episode || Reward:  269.34723858134316
-1 	: Episode || Reward:  -23.23039564584245
-2 	: Episode || Reward:  242.45571874951742
-3 	: Episode || Reward:  206.89682734393472
-4 	: Episode || Reward:  235.85802997235197
-5 	: Episode || Reward:  261.71538535746214
-6 	: Episode || Reward:  122.61568357275222
-7 	: Episode || Reward:  251.27280614794657
-8 	: Episode || Reward:  199.59065583699004
-9 	: Episode || Reward:  285.5806528674184
-10 	: Episode || Reward:  252.49765029223656
-11 	: Episode || Reward:  258.60096627885184
-12 	: Episode || Reward:  231.08984309028745
-13 	: Episode || Reward:  217.37371701839828
-14 	: Episode || Reward:  262.22667759828363
-15 	: Episode || Reward:  269.4080792176387
-16 	: Episode || Reward:  220.5973861199019
+  468 	: Episode || Reward:  236.02900558532795 	|| Average Reward:  193.3000869660911 	 epsilon:  0.09528507271768329
+  469 	: Episode || Reward:  194.82086903695605 	|| Average Reward:  193.86350116293934 	 epsilon:  0.09480864735409487
+  470 	: Episode || Reward:  194.9990044109442 	|| Average Reward:  193.36169501613378 	 epsilon:  0.0943346041173244
+  471 	: Episode || Reward:  242.6709557261555 	|| Average Reward:  193.6634085954237 	 epsilon:  0.09386293109673778
+  472 	: Episode || Reward:  281.0211610142939 	|| Average Reward:  194.35460686861595 	 epsilon:  0.09339361644125409
+  473 	: Episode || Reward:  219.83592551694156 	|| Average Reward:  196.70679655392493 	 epsilon:  0.09292664835904782
+  474 	: Episode || Reward:  215.21126488262763 	|| Average Reward:  196.9662457835784 	 epsilon:  0.09246201511725258
+  DQN Training Complete...
+  Starting Testing of the trained model...
+  0 	: Episode || Reward:  269.34723858134316
+  1 	: Episode || Reward:  -23.23039564584245
+  2 	: Episode || Reward:  242.45571874951742
+  3 	: Episode || Reward:  206.89682734393472
+  4 	: Episode || Reward:  235.85802997235197
+  5 	: Episode || Reward:  261.71538535746214
+  6 	: Episode || Reward:  122.61568357275222
+  7 	: Episode || Reward:  251.27280614794657
+  8 	: Episode || Reward:  199.59065583699004
+  9 	: Episode || Reward:  285.5806528674184
+  10 	: Episode || Reward:  252.49765029223656
+  11 	: Episode || Reward:  258.60096627885184
+  12 	: Episode || Reward:  231.08984309028745
+  13 	: Episode || Reward:  217.37371701839828
+  14 	: Episode || Reward:  262.22667759828363
+  15 	: Episode || Reward:  269.4080792176387
+  16 	: Episode || Reward:  220.5973861199019
 ```
 
 
