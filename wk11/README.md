@@ -50,73 +50,17 @@
 
   But what is more interesting is that round 5 "test" scores were almost consistently better than those of round 8 (despite having denser layers).
 
-  <u>Round 5 train & test scores</u>
-  ```
-  497 	: Episode || Reward:  236.81393726390928 	|| Average Reward:  189.89671804052887 	 epsilon:  0.08239373898667031
-  498 	: Episode || Reward:  292.3450918539277 	|| Average Reward:  190.83852883450425 	 epsilon:  0.08198177029173696
-  499 	: Episode || Reward:  233.7166604470406 	|| Average Reward:  193.3831691235568 	 epsilon:  0.08157186144027828
-  500 	: Episode || Reward:  230.3769782877547 	|| Average Reward:  193.41661283716593 	 epsilon:  0.0811640021330769
-  501 	: Episode || Reward:  240.7079500818851 	|| Average Reward:  195.31113186439737 	 epsilon:  0.08075818212241151
-  502 	: Episode || Reward:  243.14002177374752 	|| Average Reward:  197.66564777214617 	 epsilon:  0.08035439121179945
-  503 	: Episode || Reward:  218.2385161209787 	|| Average Reward:  197.63462412620916 	 epsilon:  0.07995261925574046
-  504 	: Episode || Reward:  251.86566740139492 	|| Average Reward:  198.84476408550054 	 epsilon:  0.07955285615946175
-  505 	: Episode || Reward:  213.76955323541017 	|| Average Reward:  198.7841835409221 	 epsilon:  0.07915509187866444
-  DQN Training Complete...
-  Starting Testing of the trained model...
-  0 	: Episode || Reward:  223.88021099215118
-  1 	: Episode || Reward:  264.928251769872
-  2 	: Episode || Reward:  225.50677080228542
-  3 	: Episode || Reward:  226.43538608562818
-  4 	: Episode || Reward:  241.20176469512933
-  5 	: Episode || Reward:  74.11219065110173
-  6 	: Episode || Reward:  204.98930886480474
-  7 	: Episode || Reward:  248.46595348086237
-  8 	: Episode || Reward:  176.68429011583058
-  9 	: Episode || Reward:  249.81669871539893
-  10 	: Episode || Reward:  235.28109142416318
-```  
-<u>Round 6 train & test scores</u>
-```
-457 	: Episode || Reward:  228.71440662940526 	|| Average Reward:  189.26160624449426 	 epsilon:  0.10068643904747315
-458 	: Episode || Reward:  239.37419666329436 	|| Average Reward:  190.28850925888696 	 epsilon:  0.10018300685223579
-459 	: Episode || Reward:  233.61003711812884 	|| Average Reward:  190.92390069403808 	 epsilon:  0.0996820918179746
-460 	: Episode || Reward:  1.5763848634207989 	|| Average Reward:  189.16443649684098 	 epsilon:  0.09918368135888474
-461 	: Episode || Reward:  229.66156715693154 	|| Average Reward:  189.18164437888035 	 epsilon:  0.09868776295209031
-462 	: Episode || Reward:  271.6713075025956 	|| Average Reward:  189.42405814322063 	 epsilon:  0.09819432413732986
-463 	: Episode || Reward:  276.9450714602183 	|| Average Reward:  191.21275633981426 	 epsilon:  0.09770335251664321
-464 	: Episode || Reward:  228.73383089704413 	|| Average Reward:  190.9629897484184 	 epsilon:  0.09721483575406
-465 	: Episode || Reward:  226.30496344686958 	|| Average Reward:  190.35324840010043 	 epsilon:  0.09672876157528969
-466 	: Episode || Reward:  259.7939737268042 	|| Average Reward:  190.44761201467355 	 epsilon:  0.09624511776741324
-467 	: Episode || Reward:  207.02039587099512 	|| Average Reward:  191.89069677407042 	 epsilon:  0.09576389217857617
-468 	: Episode || Reward:  236.02900558532795 	|| Average Reward:  193.3000869660911 	 epsilon:  0.09528507271768329
-469 	: Episode || Reward:  194.82086903695605 	|| Average Reward:  193.86350116293934 	 epsilon:  0.09480864735409487
-470 	: Episode || Reward:  194.9990044109442 	|| Average Reward:  193.36169501613378 	 epsilon:  0.0943346041173244
-471 	: Episode || Reward:  242.6709557261555 	|| Average Reward:  193.6634085954237 	 epsilon:  0.09386293109673778
-472 	: Episode || Reward:  281.0211610142939 	|| Average Reward:  194.35460686861595 	 epsilon:  0.09339361644125409
-473 	: Episode || Reward:  219.83592551694156 	|| Average Reward:  196.70679655392493 	 epsilon:  0.09292664835904782
-474 	: Episode || Reward:  215.21126488262763 	|| Average Reward:  196.9662457835784 	 epsilon:  0.09246201511725258
-DQN Training Complete...
-Starting Testing of the trained model...
-0 	: Episode || Reward:  269.34723858134316
-1 	: Episode || Reward:  -23.23039564584245
-2 	: Episode || Reward:  242.45571874951742
-3 	: Episode || Reward:  206.89682734393472
-4 	: Episode || Reward:  235.85802997235197
-5 	: Episode || Reward:  261.71538535746214
-6 	: Episode || Reward:  122.61568357275222
-7 	: Episode || Reward:  251.27280614794657
-8 	: Episode || Reward:  199.59065583699004
-9 	: Episode || Reward:  285.5806528674184
-10 	: Episode || Reward:  252.49765029223656
-11 	: Episode || Reward:  258.60096627885184
-12 	: Episode || Reward:  231.08984309028745
-13 	: Episode || Reward:  217.37371701839828
-14 	: Episode || Reward:  262.22667759828363
-15 	: Episode || Reward:  269.4080792176387
-16 	: Episode || Reward:  220.5973861199019
-```  
+  <u>Stacktrace of results</u>
 
+  <u>5th round training</u>
+  <p float="left">
+    <img src="submission_files/6th_round_results.png" width="500" />
+  </p>
 
+  <u>6th round training</u>
+  <p float="left">
+    <img src="submission_files/8th_final_round_final_scores.png" width="500" />
+  </p>
 
 
 * Based on what you observed, what conclusions can you draw about the different parameters and their values?
@@ -158,17 +102,3 @@ Videos
   https://vebsbuck.s3.us-east.cloud-object-storage.appdomain.cloud/episode1500_1st_round.mp4
 
   https://vebsbuck.s3.us-east.cloud-object-storage.appdomain.cloud/episode1580_1st_round.mp4
-
-
-Stacktrace of results
------------------------
-
-<u>5th round training</u>
-<p float="left">
-  <img src="submission_files/6th_round_results.png" width="500" />
-</p>
-
-<u>6th round training</u>
-<p float="left">
-  <img src="submission_files/8th_final_round_final_scores.png" width="500" />
-</p>
