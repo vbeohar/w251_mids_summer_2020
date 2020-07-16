@@ -1,0 +1,2 @@
+time docker run -it --rm --net=host --runtime nvidia  -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix:rw --privileged -v /data/videos:/tmp/videos -v /home/vebs/Documents/w251/wk11/v2/week11/hw:/tmp hw11 bash
+

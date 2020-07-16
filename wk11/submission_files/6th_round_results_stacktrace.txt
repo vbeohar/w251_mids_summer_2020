@@ -1,0 +1,58 @@
+466 	: Episode || Reward:  243.95357536498807 	|| Average Reward:  165.70053012106365 	 epsilon:  0.09624511776741324
+467 	: Episode || Reward:  184.63559025346515 	|| Average Reward:  167.3876662186829 	 epsilon:  0.09576389217857617
+468 	: Episode || Reward:  214.15162713020447 	|| Average Reward:  169.24757254850675 	 epsilon:  0.09528507271768329
+469 	: Episode || Reward:  225.29410608426275 	|| Average Reward:  169.57303318510327 	 epsilon:  0.09480864735409487
+470 	: Episode || Reward:  213.3200532609395 	|| Average Reward:  169.44704618024537 	 epsilon:  0.0943346041173244
+471 	: Episode || Reward:  -23.012875924144254 	|| Average Reward:  168.97751931191158 	 epsilon:  0.09386293109673778
+472 	: Episode || Reward:  212.26835473411157 	|| Average Reward:  169.11483661530383 	 epsilon:  0.09339361644125409
+473 	: Episode || Reward:  240.005270373387 	|| Average Reward:  171.5088619291419 	 epsilon:  0.09292664835904782
+474 	: Episode || Reward:  208.3024012728398 	|| Average Reward:  173.38504695214266 	 epsilon:  0.09246201511725258
+475 	: Episode || Reward:  187.90630696221945 	|| Average Reward:  175.32421736335797 	 epsilon:  0.09199970504166631
+476 	: Episode || Reward:  235.53902798733816 	|| Average Reward:  175.80698583251078 	 epsilon:  0.09153970651645797
+477 	: Episode || Reward:  253.15068250728405 	|| Average Reward:  176.1459430505185 	 epsilon:  0.09108200798387568
+478 	: Episode || Reward:  212.09277051092613 	|| Average Reward:  176.73754128338157 	 epsilon:  0.0906265979439563
+479 	: Episode || Reward:  208.28521363937193 	|| Average Reward:  176.37671851617074 	 epsilon:  0.09017346495423652
+480 	: Episode || Reward:  238.0443812263871 	|| Average Reward:  176.57498793541785 	 epsilon:  0.08972259762946533
+481 	: Episode || Reward:  237.0547300877073 	|| Average Reward:  179.06973038941632 	 epsilon:  0.089273984641318
+482 	: Episode || Reward:  253.92417110652164 	|| Average Reward:  180.57706301808798 	 epsilon:  0.0888276147181114
+483 	: Episode || Reward:  240.02637269963643 	|| Average Reward:  181.29210534249836 	 epsilon:  0.08838347664452084
+484 	: Episode || Reward:  252.2121044729489 	|| Average Reward:  181.23832181827808 	 epsilon:  0.08794155926129824
+485 	: Episode || Reward:  246.0823857657218 	|| Average Reward:  181.7876064004308 	 epsilon:  0.08750185146499175
+486 	: Episode || Reward:  251.10679795379215 	|| Average Reward:  181.9898807176718 	 epsilon:  0.08706434220766679
+487 	: Episode || Reward:  208.38383471017087 	|| Average Reward:  182.5964021776357 	 epsilon:  0.08662902049662846
+488 	: Episode || Reward:  233.49669552410035 	|| Average Reward:  183.06633017218545 	 epsilon:  0.08619587539414532
+489 	: Episode || Reward:  232.7094005226018 	|| Average Reward:  183.0026789358995 	 epsilon:  0.08576489601717459
+490 	: Episode || Reward:  246.31952545439043 	|| Average Reward:  184.69022611312835 	 epsilon:  0.08533607153708872
+491 	: Episode || Reward:  256.9299897056877 	|| Average Reward:  184.82899843809247 	 epsilon:  0.08490939117940327
+492 	: Episode || Reward:  206.50172863005292 	|| Average Reward:  188.06928580828676 	 epsilon:  0.08448484422350626
+493 	: Episode || Reward:  265.49379544826365 	|| Average Reward:  188.3423451478507 	 epsilon:  0.08406242000238873
+494 	: Episode || Reward:  239.60357979027606 	|| Average Reward:  188.3398029480902 	 epsilon:  0.08364210790237678
+495 	: Episode || Reward:  253.1841897984893 	|| Average Reward:  189.86653537281754 	 epsilon:  0.0832238973628649
+496 	: Episode || Reward:  222.8011962369351 	|| Average Reward:  190.27816353201027 	 epsilon:  0.08280777787605056
+497 	: Episode || Reward:  236.81393726390928 	|| Average Reward:  189.89671804052887 	 epsilon:  0.08239373898667031
+498 	: Episode || Reward:  292.3450918539277 	|| Average Reward:  190.83852883450425 	 epsilon:  0.08198177029173696
+499 	: Episode || Reward:  233.7166604470406 	|| Average Reward:  193.3831691235568 	 epsilon:  0.08157186144027828
+500 	: Episode || Reward:  230.3769782877547 	|| Average Reward:  193.41661283716593 	 epsilon:  0.0811640021330769
+501 	: Episode || Reward:  240.7079500818851 	|| Average Reward:  195.31113186439737 	 epsilon:  0.08075818212241151
+502 	: Episode || Reward:  243.14002177374752 	|| Average Reward:  197.66564777214617 	 epsilon:  0.08035439121179945
+503 	: Episode || Reward:  218.2385161209787 	|| Average Reward:  197.63462412620916 	 epsilon:  0.07995261925574046
+504 	: Episode || Reward:  251.86566740139492 	|| Average Reward:  198.84476408550054 	 epsilon:  0.07955285615946175
+505 	: Episode || Reward:  213.76955323541017 	|| Average Reward:  198.7841835409221 	 epsilon:  0.07915509187866444
+DQN Training Complete...
+Starting Testing of the trained model...
+0 	: Episode || Reward:  223.88021099215118
+1 	: Episode || Reward:  264.928251769872
+2 	: Episode || Reward:  225.50677080228542
+3 	: Episode || Reward:  226.43538608562818
+4 	: Episode || Reward:  241.20176469512933
+5 	: Episode || Reward:  74.11219065110173
+6 	: Episode || Reward:  204.98930886480474
+7 	: Episode || Reward:  248.46595348086237
+8 	: Episode || Reward:  176.68429011583058
+9 	: Episode || Reward:  249.81669871539893
+10 	: Episode || Reward:  235.28109142416318
+
+Traceback (most recent call last):
+  File "agent_lunar_lander.py", line 260, in <module>
+    skvideo.io.vwrite(fname, np.array(frames))
+MemoryError: Unable to allocate 3.57 GiB for an array with shape (5325, 400, 600, 3) and data type uint8
