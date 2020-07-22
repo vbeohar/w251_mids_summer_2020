@@ -1,0 +1,91 @@
+A. Get three virtual servers provisioned,
+
+       2 vCPUs, 4G RAM, CENTOS_7_64, two local disks 25G and 100G each, in any datacenter.
+       Make sure you attach a keypair.
+
+       Pick intuitive names such as gpfs1, gpfs2, gpfs3. Note their internal (10.x.x.x) ip addresses.
+
+
+
+       ibmcloud sl vs create --datacenter=fra02 --hostname=v100a --domain=proj9-veb2.com --image=2263543 --billing=hourly  --network 1000 --key=1834866 --flavor AC2_16X120X100 --san
+       Created: 169.50.57.104
+       password: wCXTMm4D
+
+
+
+       ibmcloud sl vs create -H gpfs11 -D hw12-veb1.com -c 2 -m 4096 -d dal10 -o CENTOS_7_64 --disk 25 --disk 100 --key=1834866
+
+        This action will incur charges on your account. Continue?> yes
+        name                 value
+        ID                   105981576
+        FQDN                 gpfs1.hw12-veb1.com
+        Created              2020-07-19T00:29:49Z
+        GUID                 170e41f9-4a0d-421a-b62b-370e67b71abc
+        Placement Group ID   -
+
+        ibmcloud sl vs cancel 105981576
+
+
+       ibmcloud sl vs create -H gpfs2 -D hw12-veb2.com -c 2 -m 4096 -d dal10 -o CENTOS_7_64 --disk 25 --disk 100 --key=1834866
+       Public: 169.60.9.37 / Private: 10.221.170.66
+       name                 value
+       ID                   105981614
+       FQDN                 gpfs2.hw12-veb2.com
+       Created              2020-07-19T00:31:46Z
+       GUID                 20410f0c-28eb-4a27-b083-a2f3bacc488e
+
+       ssh-copy-id -i root@169.60.9.37
+
+
+
+       ibmcloud sl vs create -H gpfs3 -D hw12-veb3.com -c 2 -m 4096 -d dal10 -o CENTOS_7_64 --disk 25 --disk 100 --key=1834866
+       Public: 169.60.9.43 / Private: 10.221.170.71
+        name                 value
+        ID                   105981624
+        FQDN                 gpfs3.hw12-veb3.com
+        Created              2020-07-19T00:32:08Z
+        GUID                 78911cbb-977c-433f-b2e2-61bfa63eed0d
+
+        ssh-copy-id -i root@169.60.9.43
+        The key fingerprint is:
+        SHA256:9EdMlkQNC77R+9CQ2zNdmdbpXmq46qCZbe74DjiAO5o root@gpfs3.hw12-veb3.com
+        The key's randomart image is:
+        +---[RSA 2048]----+
+        |          .o*+   |
+        |         . *.o. =|
+        |        . o B  =o|
+        | .     . . + *o..|
+        |. .     S o = =.o|
+        | . . .     . +.+.|
+        |o   o . .   . +. |
+        |.o   . B..   o   |
+        |E     =**.o..    |
+        +----[SHA256]-----+
+
+
+
+      ibmcloud sl vs create -H gpfs1-1 -D hw12-veb1-1.com -c 2 -m 4096 -d dal10 -o CENTOS_7_64 --disk 25 --disk 100 --key=1834866
+      Public: 169.60.9.42 / Private: 10.221.170.76
+      name                 value
+      ID                   105981746
+      FQDN                 gpfs1-1.hw12-veb1-1.com
+      Created              2020-07-19T00:38:34Z
+      GUID                 43483628-0958-483d-b98f-e59994aa227d
+
+      ssh-copy-id -i root@169.60.9.42
+
+      Your public key has been saved in /root/.ssh/id_rsa.pub.
+      The key fingerprint is:
+      SHA256:8garENN/UNJJDVnAx8YrYNl6cRC6jeVXb+fnzl7lbJI root@gpfs1-1.hw12-veb1-1.com
+      The key's randomart image is:
+      +---[RSA 2048]----+
+      |       +*@.      |
+      |      ++=.B      |
+      |     .oo== ..    |
+      |   .  .Oo .. .   |
+      |  o . *.S..   o o|
+      |   o . * .   . *.|
+      |  .   o +     E B|
+      |   . . o       =o|
+      |    .          o=|
+      +----[SHA256]-----+
