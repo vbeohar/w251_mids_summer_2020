@@ -1,0 +1,32 @@
+# FROM w251/cuda:dev-tx2-4.2_b158
+FROM w251/pytorch:dev-tx2-4.3_b132
+
+# to run this in interactive mode, try
+# docker run --rm --privileged -v /tmp:/tmp -v /var:/var -v /home/nvidia/models:/models --net=host --ipc=host --env DISPLAY=$DISPLAY -ti w251/inf:tx2-4.3_b132 bash
+# Try the frame classification demo:
+# ./imagenet-camera
+# Try the object detection demo:
+# ./detectnet-camera
+# Try the segmentation demo:
+# ./segnet-camera
+
+RUN apt update
+RUN apt install -y git cmake wget gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-base
+WORKDIR /
+RUN git clone http://github.com/dusty-nv/jetson-inference
+WORKDIR /jetson-inference
+RUN git submodule update --init
+RUN mkdir build
+WORKDIR /jetson-inference/build
+
+# Build
+
+RUN cmake ../
+RUN make -i -j6
+
+
+RUN make -i install
+
+WORKDIR /jetson-inference/build/aarch64/bin
+
+RUN apt install -y gstreamer1.0-plugins-bad
