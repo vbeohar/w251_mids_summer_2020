@@ -1,0 +1,21 @@
+
+# this is a notes script for darknet setup and training
+
+
+# clone darknet
+git clone https://github.com/roboflow-ai/darknet.git
+
+# build darknet
+cd darknet
+vi Makefile (set GPU=1)
+make
+
+# get the pre-trained weights
+wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137
+
+# create the config file
+# see https://github.com/roboflow-ai/darknet#how-to-compile-on-linux-using-cmake
+cp yolov4-custom.cfg yolo-obj.cfg
+update batch (64), subdivisions(16)
+
+# create the obj.names

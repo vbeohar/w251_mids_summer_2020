@@ -1,0 +1,39 @@
+rm /data01/nabirds_obj/ed9f4cf6-972b-4324-be69-d2a3eb15ff46.txt
+rm /data01/nabirds_obj/0d00df99-42eb-4e55-b807-705594f3b63b.txt
+rm /data01/nabirds_obj/0ff2e597-97b9-40fc-bf0b-e5095d70f988.txt
+rm /data01/nabirds_obj/4a2fd487-d3b3-4f94-ba63-51671453255a.txt
+rm /data01/nabirds_obj/61f38366-d5d2-4be6-a9c5-1bc2e836bcf7.txt
+rm /data01/nabirds_obj/734128f6-0491-42e6-9fce-f818a65ac8d3.txt
+rm /data01/nabirds_obj/7365e50d-aa80-4daf-8ede-bd85d4ba08c9.txt
+rm /data01/nabirds_obj/87af1c60-fd55-4325-bb90-c6bcfe465308.txt
+rm /data01/nabirds_obj/c3d976fb-64ec-4cb5-a5a2-f10794361832.txt
+rm /data01/nabirds_obj/c9015ded-ea01-4c21-add4-54f570ee2444.txt
+rm /data01/nabirds_obj/d5303fe7-f2b3-4a72-8a67-aab3a7b28188.txt
+rm /data01/nabirds_obj/e22eb558-4168-495c-ac8f-c03803fb1dfa.txt
+rm /data01/nabirds_obj/e8c34e92-0bcc-4768-8ebb-bdd3942e61aa.txt
+rm /data01/nabirds_obj/ee4ec4ee-0164-4823-aed0-aca8f8d71775.txt
+rm /data01/nabirds_obj/f25af903-b1d8-434e-b37b-2467a95be9f9.txt
+rm /data01/nabirds_obj/ffd20554-c658-487c-87e6-d1fc0cc25cbe.txt
+rm /data01/nabirds_obj/9f89ba01-e520-458b-807c-3b3cbcd60337.txt
+rm /data01/nabirds_obj/a772db00-3f26-4e92-ad80-cdf2248354f6.txt
+
+rm /data01/darknet/data/obj/ed9f4cf6-972b-4324-be69-d2a3eb15ff46.jpg
+rm /data01/nabirds_obj/0d00df99-42eb-4e55-b807-705594f3b63b.jpg
+rm /data01/nabirds_obj/0ff2e597-97b9-40fc-bf0b-e5095d70f988.jpg
+rm /data01/nabirds_obj/4a2fd487-d3b3-4f94-ba63-51671453255a.jpg
+rm /data01/nabirds_obj/61f38366-d5d2-4be6-a9c5-1bc2e836bcf7.jpg
+rm /data01/nabirds_obj/734128f6-0491-42e6-9fce-f818a65ac8d3.jpg
+rm /data01/nabirds_obj/7365e50d-aa80-4daf-8ede-bd85d4ba08c9.jpg
+rm /data01/nabirds_obj/87af1c60-fd55-4325-bb90-c6bcfe465308.jpg
+rm /data01/nabirds_obj/c3d976fb-64ec-4cb5-a5a2-f10794361832.jpg
+rm /data01/nabirds_obj/c9015ded-ea01-4c21-add4-54f570ee2444.jpg
+rm /data01/nabirds_obj/d5303fe7-f2b3-4a72-8a67-aab3a7b28188.jpg
+rm /data01/nabirds_obj/e22eb558-4168-495c-ac8f-c03803fb1dfa.jpg
+rm /data01/nabirds_obj/e8c34e92-0bcc-4768-8ebb-bdd3942e61aa.jpg
+rm /data01/nabirds_obj/ee4ec4ee-0164-4823-aed0-aca8f8d71775.jpg
+rm /data01/nabirds_obj/f25af903-b1d8-434e-b37b-2467a95be9f9.jpg
+rm /data01/nabirds_obj/ffd20554-c658-487c-87e6-d1fc0cc25cbe.jpg
+rm /data01/nabirds_obj/9f89ba01-e520-458b-807c-3b3cbcd60337.jpg
+rm /data01/nabirds_obj/a772db00-3f26-4e92-ad80-cdf2248354f6.jpg
+
+

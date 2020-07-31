@@ -1,0 +1,20 @@
+root@agx:/data01/w251_finalproject/scripts# python3 generate_objectfile.py 
+ERROR /data01/nabirds/0680/ed9f4cf6972b4324be69d2a3eb15ff46.JPG /data01/nabirds_obj/ed9f4cf6-972b-4324-be69-d2a3eb15ff46.jpg
+ERROR /data01/nabirds/0869/0d00df9942eb4e55b807705594f3b63b.JPG /data01/nabirds_obj/0d00df99-42eb-4e55-b807-705594f3b63b.jpg
+ERROR /data01/nabirds/0869/0ff2e59797b940fcbf0be5095d70f988.JPG /data01/nabirds_obj/0ff2e597-97b9-40fc-bf0b-e5095d70f988.jpg
+ERROR /data01/nabirds/0869/4a2fd487d3b34f94ba6351671453255a.JPG /data01/nabirds_obj/4a2fd487-d3b3-4f94-ba63-51671453255a.jpg
+ERROR /data01/nabirds/0869/61f38366d5d24be6a9c51bc2e836bcf7.JPG /data01/nabirds_obj/61f38366-d5d2-4be6-a9c5-1bc2e836bcf7.jpg
+ERROR /data01/nabirds/0869/734128f6049142e69fcef818a65ac8d3.JPG /data01/nabirds_obj/734128f6-0491-42e6-9fce-f818a65ac8d3.jpg
+ERROR /data01/nabirds/0869/7365e50daa804daf8edebd85d4ba08c9.JPG /data01/nabirds_obj/7365e50d-aa80-4daf-8ede-bd85d4ba08c9.jpg
+ERROR /data01/nabirds/0869/87af1c60fd554325bb90c6bcfe465308.JPG /data01/nabirds_obj/87af1c60-fd55-4325-bb90-c6bcfe465308.jpg
+ERROR /data01/nabirds/0869/c3d976fb64ec4cb5a5a2f10794361832.JPG /data01/nabirds_obj/c3d976fb-64ec-4cb5-a5a2-f10794361832.jpg
+ERROR /data01/nabirds/0869/c9015dedea014c21add454f570ee2444.JPG /data01/nabirds_obj/c9015ded-ea01-4c21-add4-54f570ee2444.jpg
+ERROR /data01/nabirds/0869/d5303fe7f2b34a728a67aab3a7b28188.JPG /data01/nabirds_obj/d5303fe7-f2b3-4a72-8a67-aab3a7b28188.jpg
+ERROR /data01/nabirds/0869/e22eb5584168495cac8fc03803fb1dfa.JPG /data01/nabirds_obj/e22eb558-4168-495c-ac8f-c03803fb1dfa.jpg
+ERROR /data01/nabirds/0869/e8c34e920bcc47688ebbbdd3942e61aa.JPG /data01/nabirds_obj/e8c34e92-0bcc-4768-8ebb-bdd3942e61aa.jpg
+ERROR /data01/nabirds/0869/ee4ec4ee01644823aed0aca8f8d71775.JPG /data01/nabirds_obj/ee4ec4ee-0164-4823-aed0-aca8f8d71775.jpg
+ERROR /data01/nabirds/0869/f25af903b1d8434eb37b2467a95be9f9.JPG /data01/nabirds_obj/f25af903-b1d8-434e-b37b-2467a95be9f9.jpg
+ERROR /data01/nabirds/0869/ffd20554c658487c87e6d1fc0cc25cbe.JPG /data01/nabirds_obj/ffd20554-c658-487c-87e6-d1fc0cc25cbe.jpg
+ERROR /data01/nabirds/0381/9f89ba01e520458b807c3b3cbcd60337.JPG /data01/nabirds_obj/9f89ba01-e520-458b-807c-3b3cbcd60337.jpg
+ERROR /data01/nabirds/0381/a772db003f264e92ad80cdf2248354f6.JPG /data01/nabirds_obj/a772db00-3f26-4e92-ad80-cdf2248354f6.jpg
+

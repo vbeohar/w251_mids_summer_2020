@@ -1,0 +1,4 @@
+cuda-repo-ubuntu1604-10-1-local-10.1.105-418.39_1.0-1_amd64.deb
+cuda-repo-ubuntu1604-10-1-local-10.1.168-418.67_1.0-1_amd64.deb
+libcudnn8_8.0.2.39-1+cuda10.1_amd64.deb
+libcudnn8-dev_8.0.2.39-1+cuda10.1_amd64.deb
